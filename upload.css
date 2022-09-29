@@ -1,0 +1,38 @@
+.addBook{
+    margin: 0 auto;
+    max-width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    line-height: 2;
+    background-color: white;
+    position: relative;
+}
+
+form{
+    text-align: center;
+}
+form input{
+    background-color: var(--light) ;
+    padding: 0.5rem;  
+    margin-bottom: 23px;
+    border-radius: 1rem;
+ }
+
+.btn-upload{
+    text-align: right;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+button{
+    background-color: var(--blue);
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+} 
+button:hover{
+    background-color: var(--light);
+}
